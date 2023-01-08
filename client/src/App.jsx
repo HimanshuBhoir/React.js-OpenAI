@@ -21,7 +21,7 @@ function App() {
 
   const fetchBotResponse = async () => {
     const { data } = await axios.post(
-      "http://localhost:4000",
+      "https://himai.onrender.com",
       { input },
       {
         headers:{
